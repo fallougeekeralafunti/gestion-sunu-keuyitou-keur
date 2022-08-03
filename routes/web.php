@@ -16,6 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/demande', function () {
+    return view('espaces-depositaires.demande');
+});
+Route::get('/dossier', function () {
+    return view('espaces-depositaires.creation-dossier');
+});
+Route::get('/suivi', function () {
+    return view('espaces-depositaires.suivi');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
