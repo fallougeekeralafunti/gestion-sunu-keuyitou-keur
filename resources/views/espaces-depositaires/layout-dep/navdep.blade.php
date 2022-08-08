@@ -10,14 +10,14 @@
         <div class="navbar-content scroll-div">
             <ul class="nav pcoded-inner-navbar">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link"><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Demandes</span></a>
+                    <a href="{{url('demande')}}" class="nav-link"><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Demandes</span></a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="form_elements.html" class="nav-link"><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Dossier</span></a>
+                    <a href="{{url('dossier')}}" class="nav-link"><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Dossier</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="tbl_bootstrap.html" class="nav-link"><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Suivi Dossiers</span></a>
+                    <a href="{{url('suivi')}}" class="nav-link"><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Suivi Dossiers</span></a>
                 </li>
             </ul>
 
