@@ -27,13 +27,13 @@
                         <!-- [ Main Content ] start -->
                         <div class="row">
                              <!-- [ basic-collapse ] start -->
-                             <div class="col-sm-12">
-                                <h5 class="mb-3">Basic Collapse</h5>
+                             <div class="col-sm-6">
+                                <h5 class="mb-3">pour creer un dossier clic sur le bouton</h5>
                                 <hr>
                                 <div class="card">
                                     <div class="card-header">
-                                        <a class="btn btn-primary m-t-5" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Demande d'enregistrement</a>
-                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Demande d'extrait de plan</button>
+                                        <a class="btn btn-primary m-t-5" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">creer un dossier</a>
+
                                     </div>
                                 </div>
                             </div>
@@ -42,8 +42,7 @@
                             <div class="col-xl-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h5>Striped Table</h5>
-                                        <span class="d-block m-t-5">use class <code>table-striped</code> inside table element</span>
+                                        <h5>liste de vos dossiers</h5>
                                     </div>
                                     <div class="card-body table-border-style">
                                         <div class="table-responsive">
@@ -51,9 +50,9 @@
                                                 <thead>
                                                     <tr>
                                                         <th>#</th>
-                                                        <th>First Name</th>
-                                                        <th>Last Name</th>
-                                                        <th>Username</th>
+                                                        <th>Npm</th>
+                                                        <th>Dossiers</th>
+                                                        <th>Reference</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
