@@ -13,8 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/wel', function () {
     return view('welcome');
+});
+Route::get('/', function () {
+    return view('accueil');
 });
 Route::get('/demande', function () {
     return view('espaces-depositaires.demande');
