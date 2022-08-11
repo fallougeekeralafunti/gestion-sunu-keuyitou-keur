@@ -25,6 +25,12 @@ Route::get('/demande', function () {
 Route::get('/dossier', function () {
     return view('espaces-depositaires.creation-dossier');
 });
+Route::get('/formulaire-ajout-fichier', function () {
+    return view('espaces-depositaires.formulaire-ajout-fichier');
+});
+Route::get('/liste-fichier', function () {
+    return view('espaces-depositaires.liste-fichier');
+});
 Route::get('/suivi', function () {
     return view('espaces-depositaires.suivi');
 });
