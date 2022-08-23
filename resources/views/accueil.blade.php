@@ -127,33 +127,33 @@
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
             <span>01</span>
-            <h4>Bureau du recouvrement</h4>
-            <p>
+            <h4>Enregistrement d'une parcelle</h4>
+            {{-- <p>
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Enregistrement de votre parcelle</a></li>
                 </ul>
-            </p>
+            </p> --}}
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
             <span>02</span>
-            <h4>Repellat Nihil</h4>
-            <p>
+            <h4>Etablissement de l'extrait de plan</h4>
+            {{-- <p>
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Etablissement de l'extrait de plan</a></li>
                 </ul>
-            </p>
+            </p> --}}
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
             <span>03</span>
-            <h4> Ad ad velit qui</h4>
-            <p>
+            <h4> Deliberations et Contrat de bail</h4>
+            {{-- <p>
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Deliberations</a></li>
                     <li><a class="nav-link scrollto active" href="#hero">Contrat de bail</a></li>
                 </ul>
-            </p>
+            </p> --}}
           </div>
         </div>
 
