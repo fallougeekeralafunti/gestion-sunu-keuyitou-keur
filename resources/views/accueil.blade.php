@@ -38,7 +38,7 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
-        <h1><a href="index.html">Mamba</a></h1>
+        <h1><a href="index.html">Sunu këfu kër</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -114,7 +114,7 @@
   <main id="main">
 
     <!-- ======= About Us Section ======= -->
-    {{-- <section id="about" class="about">
+    <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="row no-gutters">
@@ -146,7 +146,7 @@
         </div>
 
       </div>
-    </section> --}}
+    </section>
     <!-- End About Us Section -->
 
     <!-- ======= About Lists Section ======= -->
@@ -423,7 +423,7 @@
   <script src="{{asset('accueil/assets/vendor/php-email-form/validate.js')}}"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="{{asset('accueil/assets/js/main.js')}}"></script>
 
 </body>
 
