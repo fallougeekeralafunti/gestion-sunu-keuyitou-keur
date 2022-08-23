@@ -46,9 +46,9 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
-          <li><a class="nav-link scrollto" href="#about">Directions</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Procédures</a></li>
+          <li><a class="nav-link scrollto" href="#directions">Directions</a></li>
+          <li><a class="nav-link scrollto" href="#procedures">Procédures</a></li>
           <li><a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Connexion</a></li>
           <li><a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">S'inscrire</a></li>
         </ul>
@@ -68,34 +68,34 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-1.jpg');">
+          <div class="carousel-item active" style="background-image: url('accueil/assets/img/slide/slide-1.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Mamba</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <h2 class="animate__animated animate__fadeInDown"> Demande d'enregistrement <span>simple</span></h2>
+                <p class="animate__animated animate__fadeInUp">Rien de plus simple que de rester chez lui et de faire sa demande en un simple click <br>
+
+                </p>
               </div>
             </div>
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-2.jpg');">
+          <div class="carousel-item" style="background-image: url('accueil/assets/img/slide/slide-2.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <h2 class="animate__animated animate__fadeInDown">Extrait de plan cadastral Numérique</h2>
+                <p class="animate__animated animate__fadeInUp">Rester chez vous et demander Votre extrait de plan cadastral, <br>
+                Rapide et fiable  </p>
               </div>
             </div>
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.jpg');">
+          <div class="carousel-item" style="background-image: url('accueil/assets/img/slide/slide-3.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <h2 class="animate__animated animate__fadeInDown">Delibération </h2>
+                <p class="animate__animated animate__fadeInUp">Tokk sa ker am say keuyite </p>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@
 
 
     <!-- ======= About Lists Section ======= -->
-    <section class="about-lists">
+    <section class="services">
       <div class="container">
         <div class="section-title">
             <h2>Les Services</h2>
@@ -127,8 +127,10 @@
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
             <span>01</span>
-            <h4>Lorem Ipsum</h4>
-            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+            <h4>Bureau du recouvrement</h4>
+            <p>
+                le bureau du recouvrement est un service qui permet d'enregistrer de votre parcelle.
+            </p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
@@ -148,7 +150,7 @@
     </section><!-- End About Lists Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="directions" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -191,7 +193,7 @@
       </div>
     </section><!-- End Services Section -->
     <!-- ======= Procedures Administratifs Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <section id="procedures" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
