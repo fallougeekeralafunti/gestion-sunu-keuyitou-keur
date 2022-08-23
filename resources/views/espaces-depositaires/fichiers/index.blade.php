@@ -13,11 +13,11 @@
                                 <div class="row align-items-center">
                                     <div class="col-md-12">
                                         <div class="page-header-title">
-                                            <h5 class="m-b-10">Création de dossier pour votre demande</h5>
+                                            <h5 class="m-b-10">Ajour de pieces</h5>
                                         </div>
                                         <ul class="breadcrumb">
                                             <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                                            <li class="breadcrumb-item"><a href="#!">Dossiers</a></li>
+                                            <li class="breadcrumb-item"><a href="#!">l'ensembles des pieces a fournir</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -32,7 +32,7 @@
                                 <hr>
                                 <div class="card">
                                     <div class="card-header">
-                                        <a class="btn btn-primary m-t-5" href="{{url('creerDemande')}}" role="button">creerDossier</a>
+                                        <a class="btn btn-primary m-t-5" href="{{url('creerDemande')}}" role="button">Ajouter</a>
 
                                     </div>
                                 </div>
@@ -60,7 +60,7 @@
                                                         <td>1</td>
                                                         <td>Mark</td>
                                                         <td>Otto</td>
-                                                        <td> <a class="btn btn-primary m-t-5" href="{{url('creerFichier')}}" role="button">voir</a></td>
+                                                        <td> <a class="btn btn-primary m-t-5" href="{{url('creerDemande')}}" role="button">voir</a></td>
                                                     </tr>
                                                 </tbody>
                                             </table>

@@ -34,6 +34,12 @@ Route::get('/liste-fichier', function () {
 Route::get('/suivi', function () {
     return view('espaces-depositaires.suivi');
 });
+Route::get('/creerDemande', function () {
+    return view('espaces-depositaires.demande.index');
+});
+Route::get('/creerFichier', function () {
+    return view('espaces-depositaires.fichiers.create');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
